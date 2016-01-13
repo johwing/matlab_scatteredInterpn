@@ -2,12 +2,12 @@ function [VI, T] = scatteredInterpn(X, V, XI, varargin)
 %% SCATTEREDINTERPN Linear interpolation of N-dimensional scattered data
 %
 % Syntax:
-%  VI = interpn_tri(X, V, XI)
-%  VI = interpn_tri(X, V, XI, T)
-%  [VI, T] = interpn_tri(X, V, XI)
+%  VI = scatteredInterpn(X, V, XI)
+%  VI = scatteredInterpn(X, V, XI, T)
+%  [VI, T] = scatteredInterpn(X, V, XI)
 %
-%  VI = interpn_tri(___, method)
-%  VI = interpn_tri(___, method, extrapval)
+%  VI = scatteredInterpn(___, method)
+%  VI = scatteredInterpn(___, method, extrapval)
 %
 % Input:
 %  X   - coordinates of points         - [nPoints, nDim]
